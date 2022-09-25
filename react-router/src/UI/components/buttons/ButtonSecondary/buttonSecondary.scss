@@ -1,0 +1,13 @@
+@import '../../scss/tokens/tokens.scss';
+@import '../../scss/layout/layout.scss';
+
+.btn-secondary {
+    @include btn;
+    font-weight: $font-weight-normal;
+    border: 1px solid $color-main;
+    background-color: $color-white;
+    color: $color-main;
+    &:hover {
+        background-color: $color-default-light-2;
+    }
+}

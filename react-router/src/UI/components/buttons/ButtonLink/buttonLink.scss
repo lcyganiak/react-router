@@ -1,0 +1,14 @@
+@import '../../scss/tokens/tokens.scss';
+@import '../../scss/layout/layout.scss';
+
+.btn-link {
+    @include btn;
+    background-color: $color-white;
+    color: $color-main;
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: solid;
+        }
+    }
+}
